@@ -27,7 +27,7 @@
   --accent-soft: #f7ebe8;
 }
 
-/* ===== GLOBAL ===== */
+/*  GLOBAL  */
 body {
   font-family: "Poppins", sans-serif;
   background: #f8fafc;
@@ -129,9 +129,7 @@ small,
   visibility: visible;
 }
 
-/* ===============================
-   HEADER / NAVBAR
-================================ */
+/* HEADER / NAVBAR*/
 .ph-header .navbar {
   background: linear-gradient(to right, #ffffff, var(--light-bg));
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
@@ -184,9 +182,7 @@ small,
   color: var(--primary-dark);
 }
 
-/* ===============================
-   DESKTOP NAV MENU
-================================ */
+/* DESKTOP NAV MENU*/
 .navbar-nav .nav-link {
   font-size: 15px;
   font-weight: 500;
@@ -217,9 +213,7 @@ small,
   width: 100%;
 }
 
-/* ===============================
-   HEADER ICONS
-================================ */
+/*HEADER ICONS*/
 .lifebride-logo {
   gap: 2px;
 }
@@ -271,9 +265,7 @@ small,
   border-radius: 50%;
 }
 
-/* ===============================
-   TOGGLER BUTTON
-================================ */
+/*TOGGLER BUTTON*/
 .navbar-toggler {
   border: none;
   outline: none;
@@ -293,9 +285,7 @@ small,
   box-shadow: none;
 }
 
-/* ===============================
-   OFFCANVAS MENU
-================================ */
+/*OFFCANVAS MENU */
 .offcanvas {
   background: #ffffff;
   padding-top: 15px;
@@ -327,9 +317,7 @@ small,
   border-radius: 8px;
 }
 
-/* ===============================
-   SOCIAL ICONS
-================================ */
+/* SOCIAL ICONS */
 .menu-brands {
   font-size: 18px;
   color: var(--secondary-color);
@@ -340,9 +328,7 @@ small,
   color: var(--logo-color);
 }
 
-/* ===============================
-   RESPONSIVE - HEADER
-================================ */
+/*RESPONSIVE - HEADER*/
 @media (max-width: 991px) {
   .ph-header.header-sticky {
     top: 8px;
@@ -479,9 +465,7 @@ small,
   }
 }
 
-/* ===============================
-   HERO SECTION
-================================ */
+/*  HERO SECTION */
 .hero {
   padding: 0 !important;
 }
@@ -662,9 +646,7 @@ small,
   transform: translateY(0);
 }
 
-/* ===============================
-   GALLERY
-================================ */
+/* GALLERY */
 .lifebridge-gallery {
   background: var(--section-bg);
 }
@@ -742,9 +724,7 @@ small,
   }
 }
 
-/* ===============================
-   DEPARTMENTS
-================================ */
+/* DEPARTMENTS*/
 .lifebridge-departments {
   background: var(--white);
 }
@@ -795,9 +775,7 @@ small,
   color: var(--logo-color);
 }
 
-/* ===============================
-   SERVICE SECTION
-================================ */
+/* SERVICE SECTION */
 .lifebridge-service {
   background: var(--section-bg);
 }
@@ -897,9 +875,7 @@ small,
   color: var(--logo-color);
 }
 
-/* ===============================
-   TESTIMONIAL SLIDER
-================================ */
+/*  TESTIMONIAL SLIDER */
 .testimonial-section {
   background: linear-gradient(180deg, #ffffff, #f6ffff);
 }
@@ -1020,16 +996,11 @@ small,
   }
 }
 
-/* ===============================
-   FAQ SECTION
-================================ */
+/*  FAQ SECTION */
 .faq-section {
   background: #ffffff;
 }
 
-/* ===============================
-   FAQ ACCORDION
-================================ */
 .faq-list {
   list-style: none;
   padding: 0;
@@ -1104,9 +1075,7 @@ small,
   }
 }
 
-/* ===============================
-   FOOTER
-================================ */
+/*  FOOTER */
 .footer-premium {
   background:
     linear-gradient(180deg, rgba(248, 255, 255, 0.96), #ffffff),
@@ -1161,6 +1130,7 @@ small,
 
 .newsletter-input {
   flex: 1;
+  width: 100% !important;
   padding: 10px 15px;
   border: 1px solid var(--logo-color);
   border-radius: 50px 0 0 50px !important;
@@ -1217,9 +1187,7 @@ small,
   }
 }
 
-/* ===============================
-   ABOUT PAGE
-================================ */
+/* ABOUT PAGE */
 .about-content-section {
   background: #ffffff;
 }
@@ -1274,9 +1242,7 @@ small,
   }
 }
 
-/* ===============================
-   CIRCLE TEXT (ROTATING)
-================================ */
+/* CIRCLE TEXT (ROTATING) */
 .circle-container {
   width: 160px;
   height: 160px;
@@ -1317,9 +1283,7 @@ text {
   }
 }
 
-/* ===============================
-   DOCTOR CARD
-================================ */
+/* DOCTOR CARD */
 .dr-main-card {
   background: var(--logo-color);
   border-radius: 25px;
@@ -1444,9 +1408,7 @@ text {
   }
 }
 
-/* ===============================
-   SECTION TITLES & TEXT
-================================ */
+/* SECTION TITLES & TEXT */
 .section-title {
   color: rgb(0, 148, 143);
   margin-bottom: 20px;
@@ -1476,9 +1438,7 @@ text {
   font-weight: 500;
 }
 
-/* ===============================
-   SECTION IMAGE
-================================ */
+/* SECTION IMAGE */
 .section-img {
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -1508,18 +1468,14 @@ text {
   }
 }
 
-/* ===============================
-   MAP
-================================ */
+/* MAP */
 .map-responsive iframe {
   height: 600px;
   width: 100%;
   box-shadow: 0px 0px 4px 0.4px var(--logo-color);
 }
 
-/* ===============================
-   ICONS
-================================ */
+/* ICONS */
 .md-icons {
   margin-bottom: 10px;
   font-size: 2.5rem;
@@ -1546,9 +1502,7 @@ text {
   color: var(--secondary-color);
 }
 
-/* ===============================
-   SERVICE / PHARMACY PAGE
-================================ */
+/* SERVICE / PHARMACY PAGE */
 .pharmacy-subheading {
   color: var(--logo-red-color);
   font-weight: 600;
@@ -1700,9 +1654,7 @@ text {
   }
 }
 
-/* ===============================
-   BLOG PAGE
-================================ */
+/* BLOG PAGE  */
 .blog-featured-section {
   background: #ffffff;
 }
@@ -1888,9 +1840,7 @@ text {
   overflow: hidden;
 }
 
-/* ===============================
-   PRODUCT / BREADCRUMB
-================================ */
+/* PRODUCT / BREADCRUMB  */
 .pro-path-link {
   text-decoration: none !important;
   color: var(--logo-color) !important;
@@ -1956,9 +1906,7 @@ text {
   }
 }
 
-/* ===============================
-   CARDS & BUTTONS (GLOBAL)
-================================ */
+/* CARDS & BUTTONS (GLOBAL) */
 .card,
 .test-img-card {
   transition: all 0.4s ease;
@@ -2025,9 +1973,7 @@ text {
   border-color: var(--logo-color) !important;
 }
 
-/* ===============================
-   DOCTOR PAGE CARDS
-================================ */
+/*  DOCTOR PAGE CARDS */
 .doctors-showcase {
   background:
     linear-gradient(180deg, #ffffff, #f6ffff),
@@ -2122,9 +2068,7 @@ text {
 .product-card-2 {
   box-shadow: 0px 0px 2px 1px rgba(214, 229, 233, 0.741);
 }
-/* ===============================
-   CONTACT PAGE
-================================ */
+/* CONTACT PAGE */
 .contact-form-section {
   background: var(--section-bg);
 }
@@ -2147,9 +2091,7 @@ text {
   background: #ffffff;
 }
 
-/* ===============================
-   SERVICE PAGE — PREMIUM SVC ROWS
-================================ */
+/*  SERVICE PAGE — PREMIUM SVC ROWS */
 .svc-section-header {
   text-align: center;
   margin-bottom: 64px;
@@ -2537,9 +2479,7 @@ text {
   }
 }
 
-/* ===============================
-   ANIMATIONS
-================================ */
+/* ANIMATIONS */
 .animate {
   animation: fadeUp 0.8s ease forwards;
 }
@@ -2555,9 +2495,7 @@ text {
   }
 }
 
-/* ===============================
-   PREMIUM NORMALIZATION
-================================ */
+/* PREMIUM NORMALIZATION */
 .hero .carousel-item::after {
   background: linear-gradient(90deg, rgba(18, 42, 45, 0.5), rgba(18, 42, 45, 0.12));
 }
