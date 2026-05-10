@@ -135,7 +135,10 @@ small,
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
   padding: 24px 0px;
   justify-content: space-between;
-  transition: padding 0.35s ease, box-shadow 0.35s ease, border-radius 0.35s ease;
+  transition:
+    padding 0.35s ease,
+    box-shadow 0.35s ease,
+    border-radius 0.35s ease;
 }
 
 .ph-header {
@@ -154,7 +157,7 @@ small,
 }
 
 .ph-header.header-sticky .navbar {
-  padding:18px;
+  padding: 18px;
   border-radius: 18px !important;
   background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(14px);
@@ -481,7 +484,11 @@ small,
   position: absolute;
   inset: 0;
   border-radius: 20px;
-  background: linear-gradient(90deg, rgba(0, 40, 48, 0.55), rgba(0, 0, 0, 0.08));
+  background: linear-gradient(
+    90deg,
+    rgba(0, 40, 48, 0.55),
+    rgba(0, 0, 0, 0.08)
+  );
   pointer-events: none;
 }
 
@@ -518,7 +525,9 @@ small,
   padding: 24px;
   height: 100%;
   box-shadow: 0 14px 35px rgba(0, 153, 153, 0.12);
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
 .stat-card:hover {
@@ -563,7 +572,9 @@ small,
   position: relative;
   overflow: hidden;
   box-shadow: var(--card-shadow);
-  transition: transform 0.35s ease, border-color 0.35s ease;
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease;
 }
 
 .care-step::before {
@@ -638,7 +649,9 @@ small,
 .reveal-on-scroll {
   opacity: 0;
   transform: translateY(28px);
-  transition: opacity 0.65s ease, transform 0.65s ease;
+  transition:
+    opacity 0.65s ease,
+    transform 0.65s ease;
 }
 
 .reveal-on-scroll.is-visible {
@@ -1079,7 +1092,11 @@ small,
 .footer-premium {
   background:
     linear-gradient(180deg, rgba(248, 255, 255, 0.96), #ffffff),
-    radial-gradient(circle at top left, rgba(0, 153, 153, 0.16), transparent 34%);
+    radial-gradient(
+      circle at top left,
+      rgba(0, 153, 153, 0.16),
+      transparent 34%
+    );
   border-top: 1px solid rgba(0, 153, 153, 0.2);
   box-shadow: 0 -10px 35px rgba(0, 102, 102, 0.08);
   color: var(--text-color);
@@ -1115,7 +1132,9 @@ small,
 .footer-links li a {
   color: var(--text-color);
   text-decoration: none;
-  transition: color 0.3s ease, padding-left 0.3s ease;
+  transition:
+    color 0.3s ease,
+    padding-left 0.3s ease;
 }
 
 .footer-links li a:hover {
@@ -1766,18 +1785,18 @@ text {
 }
 
 .post-admin .admin-thumb img {
-  width: 80px;
-  height: 80px;
+  width: 80px !important;
+  height: 80px !important;
   border-radius: 50%;
   object-fit: contain;
   background-color: rgb(145, 188, 188);
 }
 
-.item-admin .admin-thumb img {
-  width: 60px;
-  height: 60px;
+.admin-thumb img {
+  width: 60px !important;
+  height: 60px !important;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .blogpage-icon {
@@ -1977,7 +1996,11 @@ text {
 .doctors-showcase {
   background:
     linear-gradient(180deg, #ffffff, #f6ffff),
-    radial-gradient(circle at top right, rgba(255, 61, 35, 0.12), transparent 30%);
+    radial-gradient(
+      circle at top right,
+      rgba(255, 61, 35, 0.12),
+      transparent 30%
+    );
   border-top: 1px solid rgba(0, 153, 153, 0.12);
   border-bottom: 1px solid rgba(0, 153, 153, 0.12);
 }
@@ -1990,7 +2013,10 @@ text {
   height: 100%;
   position: relative;
   overflow: hidden;
-  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease,
+    border-color 0.4s ease;
 }
 
 .doctor-card:hover {
@@ -2136,7 +2162,9 @@ text {
   margin-bottom: 48px;
   background: #ffffff;
   border: 1px solid var(--border-color);
-  transition: box-shadow 0.35s ease, transform 0.35s ease;
+  transition:
+    box-shadow 0.35s ease,
+    transform 0.35s ease;
 }
 
 .svc-row:hover {
@@ -2186,7 +2214,7 @@ text {
   align-items: center;
   gap: 7px;
   backdrop-filter: blur(6px);
-  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
 /* Text side */
@@ -2259,7 +2287,10 @@ text {
   border-radius: 50px;
   text-decoration: none;
   width: fit-content;
-  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   box-shadow: 0 6px 18px rgba(47, 143, 134, 0.25);
 }
 
@@ -2318,7 +2349,10 @@ text {
   border-radius: 14px;
   padding: 30px;
   box-shadow: var(--card-shadow);
-  transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
 .support-card:hover {
@@ -2497,7 +2531,11 @@ text {
 
 /* PREMIUM NORMALIZATION */
 .hero .carousel-item::after {
-  background: linear-gradient(90deg, rgba(18, 42, 45, 0.5), rgba(18, 42, 45, 0.12));
+  background: linear-gradient(
+    90deg,
+    rgba(18, 42, 45, 0.5),
+    rgba(18, 42, 45, 0.12)
+  );
 }
 
 .care-step::before,
