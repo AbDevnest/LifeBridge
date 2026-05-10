@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeBridge</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <div class="grand-parent">
+    <div class="border-bottom mb-2 mx-0 px-0">
+      <div class="container-fluid">
+        <marquee class="marquee-txt" behavior="smooth" direction="left">
+          Welcome to LifeBridge Hospital — Your Trusted Partner for Quality
+          Healthcare, 24/7 Emergency & Expert Doctors.
+        </marquee>
+      </div>
+    </div>
+    <!-- Navbar -->
+    <div class="">
+      <!-- Header -->
+      <div class="container py-3">
+        <header class="ph-header">
+          <nav class="navbar navbar-expand-lg align-items-center px-md-4 px-2 rounded-4">
+            <!-- Logo -->
+            <div class="d-flex align-items-center gap-2 lifebride-logo">
+              <i class="fa-solid fa-hospital logo-icon"></i>
+              <h2 class="mb-0">Life<span>Bridge</span></h2>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="collapse navbar-collapse justify-content-center d-lg-flex d-none">
+              <ul class="navbar-nav gap-3">
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Right Icons -->
+            <div class="d-flex align-items-center gap-4">
+              <a href="contact.html" class="nav-icon cart">
+                <i class="fa-solid fa-phone"></i>
+                <span class="cart-badge">24/7</span>
+              </a>
+              <a class="nav-icon" href="contact.html"><i class="fa-solid fa-user"></i></a>
+
+              <!-- Mobile Toggler -->
+              <button class="navbar-toggler d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+                <i class="fa-solid fa-bars-staggered"></i>
+              </button>
+            </div>
+          </nav>
+        </header>
+      </div>
+
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu">
+        <div class="offcanvas-header">
+          <div class="lifebride-logo d-flex">
+            <i class="fa-solid fa-hospital logo-icon"></i>
+            <h2 class="mb-0">Life<span>Bridge</span></h2>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+
+        <div class="offcanvas-body">
+          <ul class="navbar-nav text-center gap-3">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="about.html">About</a></li>
+            <li><a class="nav-link" href="service.html">Services</a></li>
+            <li><a class="nav-link" href="blog.html">Blog</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+
+          <div class="mt-4 text-center">
+            <a class="btn btn-outline-success w-100 mb-2">My Account</a>
+            <a class="btn btn-success w-100 d-flex gap-4 justify-content-center align-items-center">
+              <i class="fa-solid fa-phone"></i>
+              24/7</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar complete -->
+
+    <!-- hero section -->
+    <section class="hero">
+      <div class="container">
+        <div id="hospitalCarousel" class="carousel slide carousel-fade h-100" data-bs-ride="carousel"
+          data-bs-interval="2000">
+
+          <div class="carousel-inner mt-5 h-100">
+
+            <!-- SLIDE 1 -->
+            <div class="carousel-item active h-100 position-relative">
+              <img src="assets/images/imgi_41_slider.jpg" class="d-block w-100 hero-img" alt="LifeBridge hospital care" />
+
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <div class="card text-white bg-dark bg-opacity-75 text-center shadow-lg border-0 p-4 p-md-5"
+                  style="max-width: 650px">
+                  <h2 class="fw-bold display-6 text-uppercase">World Class Healthcare</h2>
+                  <p class="fs-5 mt-2">Advanced facilities with expert doctors</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="carousel-item h-100 position-relative">
+              <img src="https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg" class="d-block w-100 hero-img"
+                alt="Hospital Building" />
+
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <div class="card text-white bg-dark bg-opacity-75 text-center shadow-lg border-0 p-4 p-md-5"
+                  style="max-width: 650px">
+                  <h2 class="fw-bold display-6 text-uppercase">24/7 Emergency Services</h2>
+                  <p class="fs-5 mt-2">Your health is our priority</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="carousel-item h-100 position-relative">
+              <img src="assets/images/services.jpg" class="d-block w-100 hero-img" alt="LifeBridge medical team" />
+
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <div class="card text-white bg-dark bg-opacity-75 text-center shadow-lg border-0 p-4 p-md-5"
+                  style="max-width: 650px">
+                  <h2 class="fw-bold display-6 text-uppercase">Trusted by Thousands</h2>
+                  <p class="fs-5 mt-2">Caring hands for better life</p>
+                </div>
+              </div>
+            </div>
+            <!-- SLIDE 4 -->
+            <div class="carousel-item h-100 position-relative">
+              <img src="assets/images/doctor.jpg" class="d-block w-100 hero-img" alt="LifeBridge doctor consultation" />
+
+              <div class="position-absolute top-50 start-50 translate-middle">
+                <div class="card text-white bg-dark bg-opacity-75 text-center shadow-lg border-0 p-4 p-md-5"
+                  style="max-width: 650px">
+                  <h2 class="fw-bold display-6 text-uppercase">World Class Healthcare</h2>
+                  <p class="fs-5 mt-2">Advanced facilities with expert doctors</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- CONTROLS -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#hospitalCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#hospitalCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <section class="home-stats">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-lg-3 col-sm-6">
+            <div class="stat-card reveal-on-scroll">
+              <i class="fa-solid fa-user-doctor"></i>
+              <h3>80+</h3>
+              <p>Specialist doctors across critical departments</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="stat-card reveal-on-scroll">
+              <i class="fa-solid fa-bed-pulse"></i>
+              <h3>250</h3>
+              <p>Modern beds with monitored patient care</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="stat-card reveal-on-scroll">
+              <i class="fa-solid fa-truck-medical"></i>
+              <h3>24/7</h3>
+              <p>Emergency, ambulance, pharmacy and diagnostics</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="stat-card reveal-on-scroll">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <h3>15k+</h3>
+              <p>Patients supported with safe, ethical treatment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="care-flow">
+      <div class="container">
+        <div class="row align-items-end mb-4">
+          <div class="col-lg-7">
+            <h3 class="fw-bold">Care that stays connected from entry to recovery</h3>
+            <p class="text-muted mb-lg-0">
+              LifeBridge Hospital brings consultation, diagnostics, treatment, pharmacy, and follow-up into one smooth
+              patient journey.
+            </p>
+          </div>
+          <div class="col-lg-5 text-lg-end mt-3 mt-lg-0">
+            <a href="contact.html" class="appoint-btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Your Visit
+            </a>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="care-step reveal-on-scroll" data-step="01">
+              <i class="fa-solid fa-headset"></i>
+              <h5>Fast Registration</h5>
+              <p>Our front desk helps patients quickly connect with the right specialist and available time slot.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="care-step reveal-on-scroll" data-step="02">
+              <i class="fa-solid fa-stethoscope"></i>
+              <h5>Expert Consultation</h5>
+              <p>Experienced doctors review symptoms carefully and explain the next steps in simple language.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="care-step reveal-on-scroll" data-step="03">
+              <i class="fa-solid fa-microscope"></i>
+              <h5>Accurate Diagnostics</h5>
+              <p>Lab tests, imaging, and health checks support faster decisions with reliable reports.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="care-step reveal-on-scroll" data-step="04">
+              <i class="fa-solid fa-notes-medical"></i>
+              <h5>Recovery Support</h5>
+              <p>Clear discharge guidance, medicine support, and follow-ups help patients recover confidently.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="lifebridge-gallery reveal-on-scroll">
+      <div class="container">
+
+        <div class="text-center mb-5">
+          <h3 class="gallery-heading">LifeBridge Hospital Gallery</h3>
+          <p class="gallery-sub">Moments of Care, Compassion & Treatment</p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Repeat this card -->
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="gallery-card">
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/026/375/249/small/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-crossed-and-looking-at-camera-photo.jpg"
+                alt="Doctor" class="img-fluid">
+              <div class="gallery-overlay">
+                <p>Cardiology Department</p>
+                <h5>Expert Patient Care</h5>
+                <div class="gallery-icons">
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-expand"></i>
+                  <i class="fa fa-file-text"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="gallery-card">
+              <img src="https://images.pexels.com/photos/27298085/pexels-photo-27298085.jpeg" alt="Doctor"
+                class="img-fluid">
+              <div class="gallery-overlay">
+                <p>Neurology Department</p>
+                <h5>Advanced Treatment</h5>
+                <div class="gallery-icons">
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-expand"></i>
+                  <i class="fa fa-file-text"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="gallery-card">
+              <img src="https://images.pexels.com/photos/8376318/pexels-photo-8376318.jpeg" class="img-fluid">
+              <div class="gallery-overlay">
+                <p>Dental Department</p>
+                <h5>Happy Smiles</h5>
+                <div class="gallery-icons">
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-expand"></i>
+                  <i class="fa fa-file-text"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="gallery-card">
+              <img src="https://images.pexels.com/photos/32254666/pexels-photo-32254666.jpeg" alt="Doctor"
+                class="img-fluid">
+              <div class="gallery-overlay">
+                <p>Cardiology Department</p>
+                <h5>Expert Patient Care</h5>
+                <div class="gallery-icons">
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-expand"></i>
+                  <i class="fa fa-file-text"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="gallery-card">
+              <img src="https://images.pexels.com/photos/19438558/pexels-photo-19438558.jpeg" alt="Doctor"
+                class="img-fluid">
+              <div class="gallery-overlay">
+                <p>Neurology Department</p>
+                <h5>Advanced Treatment</h5>
+                <div class="gallery-icons">
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-expand"></i>
+                  <i class="fa fa-file-text"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="gallery-card">
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/026/375/249/small/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-crossed-and-looking-at-camera-photo.jpg"
+                alt="Doctor" class="img-fluid">
+              <div class="gallery-overlay">
+                <p>Dental Department</p>
+                <h5>Happy Smiles</h5>
+                <div class="gallery-icons">
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-expand"></i>
+                  <i class="fa fa-file-text"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Gallery Section End -->
+
+    <!-- Departments Section -->
+    <section class="lifebridge-departments reveal-on-scroll">
+      <div class="container">
+
+        <div class="text-center mb-5">
+          <h3 class="dept-title">Our Medical Departments</h3>
+          <p class="dept-sub">Specialized care across multiple disciplines</p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Department Card -->
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="dept-card">
+              <img src="assets/images/imgi_31_dept-1.png" height="100px" alt="Department">
+              <h5>Neurology</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="dept-card">
+              <img src="assets/images/imgi_32_dept-2.png" height="100px" alt="Department">
+              <h5>Cardiology</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="dept-card">
+              <img src="assets/images/imgi_33_dept-3.png" height="100px" alt="Department">
+              <h5>Dermatology</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="dept-card">
+              <img src="assets/images/imgi_34_dept-4.png" height="100px" alt="Department">
+              <h5>Gastroenterology</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="dept-card">
+              <img src="assets/images/imgi_35_dept-5.png" height="100px" alt="Department">
+              <h5>Otolaryngology</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="dept-card">
+              <img src="assets/images/imgi_36_dept-6.png" height="100px" alt="Department">
+              <h5>Hematology</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="dept-card">
+              <img src="assets/images/imgi_37_dept-7.png" height="100px" alt="Department">
+              <h5>Radiology</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="dept-card">
+              <img src="assets/images/imgi_38_dept-8.png" height="100px" alt="Department">
+              <h5>Podiatry</h5>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Departments Section End -->
+
+    <!-- Services Section -->
+    <section class="lifebridge-service reveal-on-scroll">
+      <div class="container">
+        <div class="row align-items-center g-5">
+
+          <!-- Left Content -->
+          <div class="col-lg-6 col-12 order-lg-1 order-2">
+            <h2 class="service-title d-lg-block d-none">We Offer Best Medical Services</h2>
+            <p class="service-desc">
+              At LifeBridge Hospital, we ensure seamless healthcare with easy appointments,
+              patient transport, and dedicated care management for every patient.
+            </p>
+
+            <div class="row g-3 mt-4">
+
+              <div class="col-sm-4 col-12">
+                <div class="service-card">
+                  <i class="fa fa-calendar-plus"></i>
+                  <p>Easy Appointments</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-12">
+                <div class="service-card">
+                  <i class="fa fa-ambulance"></i>
+                  <p>Patient Transport</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-12">
+                <div class="service-card">
+                  <i class="fa fa-thumbs-up"></i>
+                  <p>Care Management</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="mt-4">
+              <a href="contact.html" class="appoint-btn">
+                <i class="fa fa-calendar-check me-2"></i>
+                Make an Appointment
+              </a>
+
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <div class="col-lg-6 col-12 text-center order-lg-2 order-1">
+            <h2 class="service-title d-lg-none d-block">We Offer Best Medical Services</h2>
+
+            <img src="assets/images/imgi_21_services.jpg" class="img-fluid service-img" alt="Doctor">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Services Section End -->
+
+    <!-- Emergency Band -->
+    <section class="emergency-band">
+      <div class="container position-relative">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-8">
+            <h3 class="mb-2">Need urgent medical help?</h3>
+            <p class="mb-0">
+              Our emergency desk, ambulance team, ICU support, and pharmacy are available day and night for immediate
+              care.
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="contact.html" class="emergency-action">
+              <i class="fa-solid fa-phone-volume"></i>
+              Contact Emergency Desk
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Emergency Band End -->
+
+    <!-- Testimonials Section -->
+    <section class="testimonial-section reveal-on-scroll">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h3 class="fw-bold section-heading-center">What Our Patients <span>Say</span></h3>
+          <p class="text-muted">Real experiences from our happy patients</p>
+        </div>
+
+        <div class="swiper testimonialSwiper">
+          <div class="swiper-wrapper">
+
+            <!-- Slide 1 -->
+            <div class="swiper-slide testimonial-card">
+              <div class="patient-img">
+                <img src="https://img.freepik.com/free-photo/portrait-beautiful-young-woman-standing-grey-wall_231208-10760.jpg"
+                  alt="Patient testimonial">
+              </div>
+              <div class="patient-content">
+                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                <p>
+                  The doctors and nursing staff were calm, clear, and very caring. My treatment felt organized from
+                  admission to discharge.
+                </p>
+                <h6>Nisha Tomar</h6>
+                <small>Emergency Care Patient</small>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide testimonial-card">
+              <div class="patient-img">
+                <img src="https://img.freepik.com/premium-photo/arabian-handsome-man_1368-132281.jpg"
+                  alt="Patient testimonial">
+              </div>
+              <div class="patient-content">
+                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                <p>
+                  Excellent facilities and quick response during an emergency. The doctor explained every report and
+                  made the family comfortable.
+                </p>
+                <h6>Arvind Mehta</h6>
+                <small>Cardiology Patient</small>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide testimonial-card">
+              <div class="patient-img">
+                <img src="https://img.freepik.com/free-photo/lively-enthusiastic-determined-smiling-confident-asian-girl-ready-tackle-any-task-cross-fingers-chest-assertive-selfassured-smiling-satisfied-look-like-professional-white-background_176420-51110.jpg"
+                  alt="Patient testimonial">
+              </div>
+              <div class="patient-content">
+                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                <p>
+                  The diagnostic process was fast and the hospital was clean. I appreciated the polite staff and
+                  transparent guidance.
+                </p>
+                <h6>Shreya Sharma</h6>
+                <small>Diagnostics Visitor</small>
+              </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="swiper-slide testimonial-card">
+              <div class="patient-img">
+                <img src="https://img.freepik.com/premium-photo/young-man-isolated-blue-wall_1368-105349.jpg"
+                  alt="Patient testimonial">
+              </div>
+              <div class="patient-content">
+                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                <p>
+                  Follow-up care was smooth and affordable. The team remembered the details and guided us without any
+                  confusion.
+                </p>
+                <h6>Rajeev Kapoor</h6>
+                <small>Orthopedic Patient</small>
+              </div>
+            </div>
+
+            <div class="swiper-slide testimonial-card">
+              <div class="patient-img">
+                <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" alt="Patient testimonial">
+              </div>
+              <div class="patient-content">
+                <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                <p>
+                  I booked a health checkup online and everything was ready when I arrived. Reports and consultation
+                  were handled the same day.
+                </p>
+                <h6>Ananya Verma</h6>
+                <small>Health Checkup Visitor</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="swiper-button-prev test-prev"></div>
+          <div class="swiper-button-next test-next"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials Section End -->
+
+    <!-- Testimonials Section End -->
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+
+        <div class="text-center mb-4">
+          <h3 class="fw-bold section-heading-center">Patient Questions, Clear <span>Answers</span></h3>
+          <p class="text-muted">Clear answers to common patient queries at LifeBridge Hospital</p>
+        </div>
+
+        <ul class="faq-list accordion" id="faqAccordion">
+
+          <!-- FAQ 1 -->
+          <li class="faq-item accordion-item faq-card">
+            <h2 class="accordion-header">
+              <button class="faq-button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faq1">
+                How can I book an appointment at LifeBridge Hospital?
+                <span class="faq-icon"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="faq-answer">
+                Booking an appointment at LifeBridge Hospital is easy! You can use our website, mobile app, or call our
+                reception directly. Our team will guide you through available time slots with your preferred doctor.
+              </div>
+            </div>
+          </li>
+
+          <!-- FAQ 2 -->
+          <li class="faq-item accordion-item faq-card">
+            <h2 class="accordion-header">
+              <button class="faq-button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faq2">
+                Does LifeBridge Hospital have emergency services available 24/7?
+                <span class="faq-icon"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="faq-answer">
+                Yes! Our Emergency Department is fully operational 24/7 with highly trained doctors and staff to handle
+                any urgent medical situation.
+              </div>
+            </div>
+          </li>
+
+          <!-- FAQ 3 -->
+          <li class="faq-item accordion-item faq-card">
+            <h2 class="accordion-header">
+              <button class="faq-button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faq3">
+                Do I need a prescription for medicines?
+                <span class="faq-icon"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="faq-answer">
+                Prescription medicines require a valid doctor’s prescription. Over-the-counter medicines can be
+                purchased
+                directly at our pharmacy.
+              </div>
+            </div>
+          </li>
+
+          <!-- FAQ 4 -->
+          <li class="faq-item accordion-item faq-card">
+            <h2 class="accordion-header">
+              <button class="faq-button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faq4">
+                Are lab tests and diagnostics available at LifeBridge Hospital?
+                <span class="faq-icon"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="faq-answer">
+                Yes, our state-of-the-art diagnostic lab offers blood tests, X-rays, ultrasound, CT scans, and more,
+                providing accurate and quick results for patients.
+              </div>
+            </div>
+          </li>
+
+          <!-- FAQ 5 -->
+          <li class="faq-item accordion-item faq-card">
+            <h2 class="accordion-header">
+              <button class="faq-button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faq5">
+                Do you provide ambulance services?
+                <span class="faq-icon"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+            </h2>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="faq-answer">
+                Yes, LifeBridge Hospital offers ambulance services for emergencies. Call our helpline for immediate
+                assistance and safe transportation to the hospital.
+              </div>
+            </div>
+          </li>
+
+          <!-- FAQ 6 -->
+          <li class="faq-item accordion-item faq-card">
+            <h2 class="accordion-header">
+              <button class="faq-button accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#faq6">
+                Is the hospital environment hygienic and safe?
+                <span class="faq-icon"><i class="fa-solid fa-angle-right"></i></span>
+              </button>
+            </h2>
+            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="faq-answer">
+                We maintain strict hygiene and safety protocols across all departments, ensuring a clean, safe, and
+                comfortable environment for all patients and visitors.
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+    <!-- FAQ Section End -->
+
+    <button id="backToTop" class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+
+
+    <footer class="footer-premium">
+      <div class="container">
+        <div class="row g-4">
+
+          <!-- About LifeBridge -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <!-- Logo -->
+            <div class="d-flex align-items-center gap-2 lifebride-logo">
+              <i class="fa-solid fa-hospital logo-icon"></i>
+              <h2 class="mb-0">Life<span>Bridge</span></h2>
+            </div>
+            <p class="footer-text mt-4">
+              LifeBridge Hospital provides compassionate healthcare with state-of-the-art technology, expert doctors,
+              and patient-first services.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-2 col-6">
+            <h5 class="footer-heading">Hospital</h5>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="service.html">Departments</a></li>
+              <li><a href="about.html">Doctors</a></li>
+              <li><a href="service.html">Services</a></li>
+            </ul>
+          </div>
+
+          <!-- Patient Care -->
+          <div class="col-lg-2 col-6">
+            <h5 class="footer-heading">Patient Care</h5>
+            <ul class="footer-links">
+              <li><a href="contact.html">Appointments</a></li>
+              <li><a href="contact.html">Patient Portal</a></li>
+              <li><a href="contact.html">Insurance</a></li>
+              <li><a href="index.html#faqAccordion">FAQ</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="col-lg-4 col-md-6 col-12">
+            <h5 class="footer-heading">Newsletter</h5>
+            <p class="footer-text">Subscribe for latest health tips, hospital updates, and exclusive medical insights.
+            </p>
+            <div class="input-group newsletter-group">
+              <input type="text" class="form-control newsletter-input" placeholder="Your email address">
+              <button class="newsletter-btn" type="button">Subscribe</button>
+            </div>
+            <p class="footer-text small">Your email is safe with us. No spam ever.</p>
+          </div>
+
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="text-center footer-copy">
+          <p>©2026 LifeBridge Hospital. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+
+  </div>
+
+  <script src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".testimonialSwiper", {
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".test-next",
+        prevEl: ".test-prev",
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1200: {
+          slidesPerView: 3,
+        }
+      }
+    });
+  </script>
+
+
+
+</body>
+
+</html>

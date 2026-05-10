@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeBridge</title>
+    <!-- google font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Barlow+Condensed&family=Rajdhani:wght@400;600&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+    <div class="grand-parent">
+        <div class="border-bottom mb-2 mx-0 px-0">
+            <div class="container-fluid">
+                <marquee class="marquee-txt" behavior="smooth" direction="left">
+                    Welcome to LifeBridge Hospital — Your Trusted Partner for Quality
+                    Healthcare, 24/7 Emergency & Expert Doctors.
+                </marquee>
+            </div>
+        </div>
+        <!-- Navbar -->
+        <div class="">
+            <!-- Header -->
+            <div class="container py-3">
+                <header class="ph-header">
+                    <nav class="navbar navbar-expand-lg align-items-center px-md-4 px-2 rounded-4">
+                        <!-- Logo -->
+                        <div class="d-flex align-items-center gap-2 lifebride-logo">
+                            <i class="fa-solid fa-hospital logo-icon"></i>
+                            <h2 class="mb-0">Life<span>Bridge</span></h2>
+                        </div>
+
+                        <!-- Desktop Menu -->
+                        <div class="collapse navbar-collapse justify-content-center d-lg-flex d-none">
+                            <ul class="navbar-nav gap-3">
+                                <li class="nav-item">
+                                    <a class="nav-link " href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="service.html">Services</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Right Icons -->
+                        <div class="d-flex align-items-center gap-4">
+                            <a href="contact.html" class="nav-icon cart">
+                                <i class="fa-solid fa-phone"></i>
+                                <span class="cart-badge">24/7</span>
+                            </a>
+              <a class="nav-icon" href="contact.html"><i class="fa-solid fa-user"></i></a>
+
+                            <!-- Mobile Toggler -->
+                            <button class="navbar-toggler d-lg-none" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasMenu">
+                                <i class="fa-solid fa-bars-staggered"></i>
+                            </button>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu">
+                <div class="offcanvas-header">
+                    <div class="lifebride-logo d-flex">
+                        <i class="fa-solid fa-hospital logo-icon"></i>
+                        <h2 class="mb-0">Life<span>Bridge</span></h2>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav text-center gap-3">
+                        <li><a class="nav-link" href="index.html">Home</a></li>
+                        <li><a class="nav-link" href="about.html">About</a></li>
+                        <li><a class="nav-link" href="service.html">Services</a></li>
+            <li><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+
+                    <div class="mt-4 text-center">
+                        <a class="btn btn-outline-success w-100 mb-2">My Account</a>
+                        <a class="btn btn-success w-100 d-flex gap-4 justify-content-center align-items-center">
+                            <i class="fa-solid fa-phone"></i>
+                            24/7</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar complete -->
+
+        <!-- Hero Banner -->
+        <section class="page-hero-section">
+            <div class="container">
+                <div class="row px-0 mx-0">
+                    <div class="col-12">
+                        <div class="about-first-bg mt-4">
+                            <div class="about-page-title text-center">
+                                <h3 class="text-success fw-bold">LifeBridge Hospital</h3>
+                                <h1 class="px-5 fw-bold">Get In Touch With Us</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Banner End -->
+
+        <!-- Support Cards Section -->
+        <section class="contact-support">
+            <div class="container">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="support-card emergency h-100">
+                            <i class="fa-solid fa-truck-medical"></i>
+                            <h4>Emergency Desk</h4>
+                            <p>For urgent care, ambulance coordination, and emergency admission support, our response
+                                desk stays active 24/7.</p>
+                            <a href="tel:+919876543210">Call Emergency</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="support-card h-100">
+                            <i class="fa-solid fa-calendar-check"></i>
+                            <h4>Appointment Help</h4>
+                            <p>Need help choosing the right department? Share your concern and our team will guide you
+                                to the correct specialist.</p>
+                            <a href="#appointmentForm">Plan Appointment</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="support-card h-100">
+                            <i class="fa-solid fa-file-medical"></i>
+                            <h4>Reports & Follow-up</h4>
+                            <p>Patients can request report assistance, follow-up timing, and medicine guidance after
+                                consultation.</p>
+                            <a href="mailto:care@lifebridge.com">Email Care Team</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="visit-plan">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <h3 class="section-heading-left">Before You <span>Visit</span></h3>
+                        <p class="text-muted">
+                            Keep these details ready so your visit stays fast and comfortable from registration to
+                            consultation.
+                        </p>
+                        <div class="visit-list">
+                            <div><i class="fa-solid fa-id-card"></i><span>Carry a valid ID and previous medical
+                                    reports.</span></div>
+                            <div><i class="fa-solid fa-pills"></i><span>Bring current medicine names or
+                                    prescriptions.</span></div>
+                            <div><i class="fa-solid fa-clock"></i><span>Reach 15 minutes early for smooth
+                                    registration.</span></div>
+                            <div><i class="fa-solid fa-user-group"></i><span>Emergency patients may bring one attendant
+                                    for faster coordination.</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hours-panel">
+                            <h4>Care Availability</h4>
+                            <div class="hours-row"><span>Emergency</span><strong>24/7</strong></div>
+                            <div class="hours-row"><span>OPD Consultation</span><strong>9:00 AM - 8:00 PM</strong></div>
+                            <div class="hours-row"><span>Diagnostics</span><strong>7:00 AM - 9:00 PM</strong></div>
+                            <div class="hours-row"><span>Pharmacy</span><strong>24/7</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-cta">
+            <div class="container">
+                <div class="contact-cta-inner">
+                    <div>
+                        <h3>Need the right department?</h3>
+                        <p>Tell us your symptoms or requirement. LifeBridge support will route you to the correct care
+                            team.</p>
+                    </div>
+                    <a href="tel:+919876543210"><i class="fa-solid fa-phone-volume"></i> Talk to Support</a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact CTA End -->
+
+        <!-- Appointment Form Section -->
+        <section class="contact-form-section" id="appointmentForm">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold section-heading-center">Book an <span>Appointment</span></h2>
+                    <p class="text-muted">Fill in your details and our team will get back to you shortly.</p>
+                </div>
+
+                <div class="row justify-content-evenly align-items-stretch">
+
+                    <!-- Contact Info Cards -->
+                    <div class="col-lg-5 col-12 mb-4">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-12">
+                                <div class="cont-crd h-100 shadow-sm bg-white rounded-4 p-4 text-center">
+                                    <i class="fa-solid fa-location-dot cnt-icn mb-3 text-success fs-2"></i>
+                                    <h5 class="fw-bold">Hospital Address</h5>
+                                    <p class="text-muted mb-0">LifeBridge Hospital<br>Main Road, City Center</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="cont-crd h-100 shadow-sm bg-white rounded-4 p-4 text-center">
+                                    <i class="fa-solid fa-phone-volume cnt-icn mb-3 text-primary fs-2"></i>
+                                    <h5 class="fw-bold">Emergency Call</h5>
+                                    <p class="text-muted mb-0">+91 98765 43210<br>+91 91234 56789</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="cont-crd h-100 shadow-sm bg-white rounded-4 p-4 text-center">
+                                    <i class="fa-solid fa-envelope cnt-icn mb-3 text-danger fs-2"></i>
+                                    <h5 class="fw-bold">Email Support</h5>
+                                    <p class="text-muted mb-0">care@lifebridge.com<br>support@lifebridge.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="cont-crd h-100 shadow-sm bg-white rounded-4 p-4 text-center">
+                                    <i class="fa-solid fa-clock cnt-icn mb-3 text-warning fs-2"></i>
+                                    <h5 class="fw-bold">Working Hours</h5>
+                                    <p class="text-muted mb-0">Mon – Sat<br>9:00 AM – 8:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Appointment Form -->
+                    <div class="col-lg-5 col-12">
+                        <div class="bg-white shadow-lg rounded-4 p-lg-4 p-3 h-100">
+                            <h3 class="fw-bold section-title text-center mb-4">
+                                Book Appointment / Enquiry
+                            </h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control shadow-sm p-3" placeholder="Full Name">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="email" class="form-control shadow-sm p-3" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="tel" class="form-control shadow-sm p-3" placeholder="Phone Number">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <select class="form-select shadow-sm p-3">
+                                            <option selected disabled>Select Service</option>
+                                            <option>Doctor Consultation</option>
+                                            <option>Lab Test Booking</option>
+                                            <option>Pharmacy Support</option>
+                                            <option>BP / Sugar Check</option>
+                                            <option>Emergency Assistance</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control shadow-sm p-3" rows="4"
+                                        placeholder="Write your message"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn px-5 py-2 rounded-pill fw-bold shadow-sm custom-btn">
+                                        Send Request <i class="fas fa-paper-plane ms-2"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Appointment Form Section End -->
+
+        <footer class="footer-premium">
+            <div class="container">
+                <div class="row g-4">
+
+                    <!-- About LifeBridge -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Logo -->
+                        <div class="d-flex align-items-center gap-2 lifebride-logo">
+                            <i class="fa-solid fa-hospital logo-icon"></i>
+                            <h2 class="mb-0">Life<span>Bridge</span></h2>
+                        </div>
+                        <p class="footer-text mt-4">
+                            LifeBridge Hospital provides compassionate healthcare with state-of-the-art technology,
+                            expert doctors,
+                            and patient-first services.
+                        </p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-6">
+                        <h5 class="footer-heading">Hospital</h5>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="service.html">Departments</a></li>
+                            <li><a href="about.html">Doctors</a></li>
+                            <li><a href="service.html">Services</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Patient Care -->
+                    <div class="col-lg-2 col-6">
+                        <h5 class="footer-heading">Patient Care</h5>
+                        <ul class="footer-links">
+                            <li><a href="contact.html">Appointments</a></li>
+                            <li><a href="contact.html">Patient Portal</a></li>
+                            <li><a href="contact.html">Insurance</a></li>
+                            <li><a href="index.html#faqAccordion">FAQ</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <h5 class="footer-heading">Newsletter</h5>
+                        <p class="footer-text">Subscribe for latest health tips, hospital updates, and exclusive medical
+                            insights.
+                        </p>
+                        <div class="input-group newsletter-group">
+                            <input type="text" class="form-control newsletter-input" placeholder="Your email address">
+                            <button class="newsletter-btn" type="button">Subscribe</button>
+                        </div>
+                        <p class="footer-text small">Your email is safe with us. No spam ever.</p>
+                    </div>
+
+                </div>
+
+                <hr class="footer-divider">
+
+                <div class="text-center footer-copy">
+                    <p>©2026 LifeBridge Hospital. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

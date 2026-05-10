@@ -1,0 +1,223 @@
+/* Responsive polish for LifeBridge */
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 100% !important;
+  }
+
+  h1,
+  .h1 {
+    font-size: 34px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 28px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  body,
+  p,
+  li,
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 15px;
+  }
+
+  .ph-header.header-sticky {
+    left: 10px;
+    right: 10px;
+  }
+
+  .hero-img {
+    height: 430px;
+  }
+
+  .display-6 {
+    font-size: 30px;
+  }
+
+  .testimonialSwiper {
+    padding-inline: 38px;
+  }
+
+  .contact-cta-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  h1,
+  .h1 {
+    font-size: 30px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 25px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 22px;
+  }
+
+  h4,
+  .h4 {
+    font-size: 20px;
+  }
+
+  .container {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+  .ph-header .navbar {
+    min-height: 66px;
+    padding: 16px 14px;
+    width: calc(100vw - 28px) !important;
+    max-width: calc(100vw - 28px) !important;
+    overflow: visible;
+    padding-right: 68px;
+  }
+
+  .lifebride-logo h2 {
+    font-size: 21px;
+  }
+
+  .lifebride-logo i {
+    font-size: 25px;
+  }
+
+  .navbar-toggler {
+    display: inline-flex !important;
+    width: 40px;
+    height: 40px;
+    right: 12px;
+    z-index: 10;
+    color: var(--dark-text);
+  }
+
+  .navbar-toggler i {
+    color: var(--dark-text);
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  .ph-header .navbar > .d-flex:last-child {
+    position: static;
+    margin-left: auto;
+  }
+
+  .hero .card {
+    width: min(300px, 86vw);
+    padding: 22px 18px !important;
+  }
+
+  .hero .card h2 {
+    font-size: 25px;
+    line-height: 1.18;
+  }
+
+  .hero .card p,
+  .fs-5,
+  .lead {
+    font-size: 15px !important;
+  }
+
+  .home-stats {
+    margin-top: 18px;
+  }
+
+  .stat-card,
+  .care-step,
+  .service-card,
+  .testimonial-card,
+  .support-card,
+  .hours-panel,
+  .doctor-card {
+    padding: 22px;
+  }
+
+  .gallery-card img,
+  .section-img {
+    height: 240px;
+  }
+
+  .testimonialSwiper {
+    padding-inline: 30px;
+  }
+
+  .testimonial-card {
+    min-height: auto;
+  }
+
+  .newsletter-group,
+  .hours-row {
+    flex-direction: column;
+  }
+
+  .newsletter-input,
+  .newsletter-btn,
+  .contact-cta-inner a,
+  .emergency-action {
+    width: 100%;
+  }
+
+  .newsletter-input,
+  .newsletter-btn {
+    border-radius: 50px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  body,
+  p,
+  li,
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 14.5px;
+  }
+
+  .marquee-txt {
+    font-size: 13px;
+  }
+
+  .hero-img {
+    height: 410px;
+  }
+
+  .hero .carousel-inner {
+    margin-top: 28px !important;
+  }
+
+  .hero .card h2 {
+    font-size: 23px;
+  }
+
+  .offcanvas {
+    width: 78% !important;
+  }
+
+  .section-heading-center::after,
+  .section-heading-left::after,
+  .section-title::after,
+  .pharmacy-heading::after {
+    width: 48px;
+  }
+
+  .footer-premium {
+    padding-top: 44px;
+  }
+}
